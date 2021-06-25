@@ -1,0 +1,290 @@
+@par: #8c8bb9;
+@bg: #232337;
+.par-set() {
+	font-weight: 300;
+	color: @par;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html {
+	box-sizing: border-box;
+}
+a:hover {
+	text-decoration: none;
+}
+button, input, a, textarea {
+	&:focus {
+		outline: none;
+	}
+}
+button, a {
+	&:hover {
+		opacity: 0.8;
+		transition: opacity .1s linear;
+	}
+}
+body{
+	background-color: @bg;
+	color: #fff;
+}
+.container {
+	margin: 0 120px;
+	padding: 0;
+}
+section {
+	margin: 90px 0;
+}
+.section-header {
+	h2 {
+		font-weight: 700;
+		font-size: 64px;
+		color: #fff;
+	}
+}
+.main {
+	padding: 80px 0 100px;
+	background: url(../img/main/main-bg.png) center no-repeat;
+	background-size: cover;
+	&-content {
+		h1 {
+			text-transform: uppercase;
+			font-size: 64px;
+			color: #fff;
+			font-weight: 700;
+			margin-bottom: 34px;
+		}
+		p {
+			font-size: 28px;
+			color: @par;
+			line-height: 1.2;
+		}
+	}
+	&-btn {
+		display: flex;
+		border-radius: 30px;
+		color: #fff;
+		border: 1px solid #fff;
+		font-size: 22px;
+		text-align: center;
+		padding: 15px 40px;
+		min-width: 200px;
+		min-height: 60px;
+		margin-top: 56px;
+		&-first {
+			display: flex;
+			align-items: center;
+			font-weight: 700;
+			background-color: #5f3af1;
+			border: none;
+			margin-right: 10px;
+			img {
+				margin-right: 10px;
+			}
+		}
+		&-second {
+			display: flex;
+			justify-content: center;
+			background-color: transparent;
+			border: 2px solid #fff;
+		}
+	}
+}
+
+.ellipse {
+	position: absolute;
+	transform: translateY(-50%);
+}
+
+.buttons {
+	display: flex;
+}
+
+.header {
+	margin-bottom: 108px;
+	&-navs {
+		a {
+			margin-right: 50px;
+			color: #fff;
+			font-size: 24px;
+		}		
+	}
+}
+
+.advantages {
+	&-content {
+		display: flex;
+		justify-content: space-between;
+	}
+	&-item {
+		text-align: center;
+		h5 {
+			font-size: 36px;
+			color: #fff;
+			margin: 30px 0 17px ;
+		}
+		p {
+			color: @par;
+			font-size: 22px;
+			font-weight: 300;
+			line-height: 1.3;
+		}
+	}
+}
+
+.about {
+	&-content {
+		margin-top: 95px;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+		&-text {
+			h1 {
+				font-size: 64px;
+				color: #fff;
+			}
+			p {
+				.par-set();
+				font-size: 28px;
+				line-height: 1.3;
+			}
+		}
+	}
+}
+
+.functions {
+	&-item {
+		margin-top: 80px;
+		h5 {
+			font-size: 38px;
+			color: #fff;
+			font-weight: 500;
+			margin: 30px 0 20px;
+		}
+		p {
+			.par-set();
+		}
+	}
+}
+
+.tariffs {
+	&-choice {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 56px;
+	}
+	&-btn {
+		width: 100%;
+		padding: 21px 0;
+		text-decoration: none;
+		border: none;
+		color: #fff;
+		font-size: 32px;
+		margin-bottom: 50px;
+		border: 2px solid @par;
+		&-first {
+			border-radius: 10px 0 0 10px;
+			background-color: #5f3af1;
+			border-right: none;
+		}
+		&-second {
+			border-radius: 0 10px 10px 0;
+			background-color: transparent;
+		}
+	}
+	&-item {
+		&-btn {
+			background: #5f3af1;
+			border-radius: 30px;
+			border: none;
+			font-size: 22px;
+			color: #fff;
+			font-weight: 700;
+			text-align: center;
+			padding: 15px 79px;
+		}
+		&-inner {
+			background-color: #282849;
+			box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.3);
+			border-radius: 10px;
+			padding: 40px 0 50px;
+		 	h4, p, h5 {
+				text-align: center;
+				padding: 0 40px 0;
+			}
+			h4 {
+				text-transform: uppercase;
+				font-size: 32px;
+				font-weight: 700;
+				color: #fff;
+				margin: 39px 0 23px;
+			}
+			p {
+				.par-set();
+				font-size: 22px;
+			}
+			img, button {
+				display: block;
+				margin: 0 auto;
+			}
+			ul {
+				list-style: none;
+				padding-left: 0;
+				padding-top: 20px;
+				li {
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 24px;
+						height: 18px;
+						background: url(../img/tariffs/vector.svg) center no-repeat;
+						background-size: cover;
+					}
+					position: relative;
+					padding-left: 35px;
+					margin-bottom: 10px;
+					margin-left: 30px;
+				}
+			}
+			h5 {
+				font-weight: 700;
+				font-size: 24px;
+				margin: 38px 0 34px;
+			}
+		}
+	}
+}
+
+.support {
+	&-content {
+		margin-top: 10px;
+		p {
+			font-size: 24px;
+			font-weight: 300;
+			line-height: 1.3;
+			color: @par;
+		}
+	}
+}
+
+.footer {
+	&-item {
+		img {
+			margin-right: 20px;
+			transform: translateY(-17%);
+		}
+		a {
+			text-decoration: none;
+			font-size: 24px;
+			font-weight: 300;
+			color: @par;
+		}
+	}
+}
