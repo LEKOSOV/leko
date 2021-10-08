@@ -421,3 +421,9 @@ a:hover {
     width: 50%;
   }
 }
+@media (max-width: 576px) {
+  .schedule-modul,
+  .schedule-description {
+    width: 50%;
+  }
+}
