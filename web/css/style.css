@@ -384,6 +384,40 @@ a:hover {
 }
 @media (max-width: 834px) {
   .header-navs a {
-    margin-right: 50px;
+    margin-right: 49px;
+  }
+}
+@media (max-width: 425px) {
+  .header_fixed {
+    display: none;
+  }
+  .header-navs {
+    display: none;
+  }
+  .header-button {
+    display: block;
+    margin: 0 auto;
+  }
+  .main-btn_first {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+  .schedule-imac {
+    margin-bottom: 80px;
+  }
+  .schedule-imac img {
+    width: 295px;
+  }
+  .learn-img {
+    -webkit-transform: translate(-5px, -55px);
+            transform: translate(-5px, -55px);
+  }
+  .learn {
+    padding-bottom: 55px;
+  }
+  .schedule-modul,
+  .schedule-description {
+    width: 50%;
   }
 }
