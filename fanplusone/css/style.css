@@ -1741,6 +1741,7 @@ ul {
   .footer-fourth {
     max-width: 240px;
     margin: 0 auto;
+    margin-right: auto;
     margin-bottom: 40px;
   }
   .footer-navs a {
@@ -1766,6 +1767,6 @@ ul {
     margin-bottom: 10px;
   }
   .footer .footer-third {
-    margin-right: auto !important;
+    margin-right: auto;
   }
 }
