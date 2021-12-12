@@ -1352,7 +1352,7 @@ ul {
             justify-content: space-between;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 426px) {
   .section-header {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
