@@ -1,0 +1,116 @@
+            <div class="main-card-left sub-card">
+              <h4>Subscribe to Yoga Cources</h4>
+              <p class="main-card-left-subtitle sub-card-subtitle">Become a Podcast Cources member</p>
+              <div class="main-card-plan sub-card-plan">
+                <div>
+                  <h3>30-day free trial</h3>
+                  <p>Try a free subscription for 30 days</p>
+                </div>
+              </div>
+              <div class="main-card-plan sub-card-plan">
+                <div>
+                  <h3>Annual membership</h3>
+                  <p>All access to community, exclusives, Q&As.</p>
+                </div>
+                <h2>$300 <span>/m</span></h2>
+              </div>
+              <div class="main-card-plan sub-card-plan">
+                <div>
+                  <h3>Monthly membership</h3>
+                  <p>All access to community, exclusives, Q&As.</p>
+                </div>
+                <h2>$29 <span>/m</span></h2>
+              </div>
+              <div class="main-card-plan sub-card-plan">
+                <div>
+                  <h3>One-time payment</h3>
+                  <p>All access to community, exclusives, Q&As.</p>
+                </div>
+                <h2>$1099</h2>
+              </div>
+              <button class="btn">Continue to subscribe</button>
+              <p class="main-card-left-subtitle sub-card-subtitle"><img src="img/main/lock.svg" alt=""> Payments are secure and encrypted</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  			<div class="main-card">
+  				<div class="main-card-inner">
+  					<img src="img/main/woman.png" alt="">
+  					<div class="main-card-left">
+  						<h4>Subscribe to Yoga Cources</h4>
+  						<p class="main-card-left-subtitle">Become a Podcast Cources member</p>
+  						<div class="main-card-plan">
+  							<div>
+  								<h3>30-day free trial</h3>
+  								<p>Try a free subscription for 30 days</p>
+  							</div>
+  						</div>
+  						<div class="main-card-plan">
+  							<div>
+  								<h3>Annual membership</h3>
+  								<p>All access to community, exclusives, Q&As.</p>
+  							</div>
+  							<h2>$300 <span>/m</span></h2>
+  						</div>
+  						<div class="main-card-plan">
+  							<div>
+  								<h3>Monthly membership</h3>
+  								<p>All access to community, exclusives, Q&As.</p>
+  							</div>
+  							<h2>$29 <span>/m</span></h2>
+  						</div>
+  						<div class="main-card-plan">
+  							<div>
+  								<h3>One-time payment</h3>
+  								<p>All access to community, exclusives, Q&As.</p>
+  							</div>
+  							<h2>$1099</h2>
+  						</div>
+  						<button class="btn">Continue to subscribe</button>
+  						<div class="main-card-secure">
+  							<img src="img/main/lock.svg" alt="">
+  							<p class="main-card-left-subtitle">Payments are secure and encrypted</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--         <img class="main-bg" src="img/main/left1.svg" alt="" style="position: absolute; left: 187px; top: 14px;">
+        <img class="main-bg" src="img/main/left2.svg" alt="" style="position: absolute;top: 125px;left: 14px;">
+        <img class="main-bg" src="img/main/lefttg.svg" alt="" style="position: absolute;top: 122px;left: 147px;">
+        <img class="main-bg" src="img/main/left3.svg" alt="" style="position: absolute;top: 164px;left: 227px;">
+        <img class="main-bg" src="img/main/right1.svg" alt="" style="position: absolute;right: 156px;top: 28px;">
+        <img class="main-bg" src="img/main/right2.svg" alt="" style="position: absolute;right: 13px;top: 95px;">
+        <img class="main-bg" src="img/main/righttg.svg" alt="" style="position: absolute;right: 137px;top: 146px;">
+        <img class="main-bg" src="img/main/right3.svg" alt="" style="position: absolute;right: 226px;top: 166px;"> -->
