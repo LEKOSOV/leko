@@ -1959,7 +1959,7 @@ ul {
         -ms-flex-align: center;
             align-items: center;
     text-align: left;
-    max-width: 310px;
+    width: 310px;
     margin: 0 auto;
     margin-bottom: 17px;
     background: #fff;
